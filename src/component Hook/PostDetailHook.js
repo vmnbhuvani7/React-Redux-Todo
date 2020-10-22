@@ -17,7 +17,6 @@ const PostDetailHook = (props) => {
                     <p>{post.content}</p>
                 </div>
                 <div className="card-action">
-
                     <button className="btn red" onClick={() => dispatch(deletePost(post.id))}>Delete</button>
                 </div>
             </div>
